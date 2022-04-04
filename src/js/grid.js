@@ -295,7 +295,7 @@ export class Grid {
       .to(
         this.DOM.heading.top,
         {
-          y: '-200%',
+          y: '-600%',
           scaleY: 4,
         },
         'start'
@@ -303,7 +303,7 @@ export class Grid {
       .to(
         this.DOM.heading.bottom,
         {
-          y: '200%',
+          y: '600%',
           scaleY: 4,
         },
         'start+=0.05'

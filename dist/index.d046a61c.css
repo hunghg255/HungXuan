@@ -238,13 +238,15 @@ main:after {
   margin: 8vh 1vw 0;
   position: relative;
   overflow: hidden;
+  box-shadow: 0 0 20px #00000045;
 }
 
 .column__item-img {
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  background-position: 50% 20%;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 

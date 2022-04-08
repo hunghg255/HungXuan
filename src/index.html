@@ -1,492 +1,619 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hùng Xuân Gallery</title>
+    <link rel="shortcut icon" href="img/love.png" />
+    <link rel="stylesheet" href="https://use.typekit.net/njz5ajv.css" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>Hùng Xuân Gallery</title>
-	<link rel="shortcut icon" href="img/love.png" />
-	<link rel="stylesheet" href="https://use.typekit.net/njz5ajv.css" />
-	<link rel="stylesheet" type="text/css" href="css/base.css" />
-	 <!-- Open Graph / Facebook -->
-	 <meta property="og:type" content="website">
-	 <meta property="og:title" content="Hoang Gia Hung">
-	 <meta property="og:image" content="https://res.cloudinary.com/hunghg255/image/upload/v1649143415/21_ud6new.jpg">
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Hùng Xuân Gallery" />
+    <meta name="description" content="Lưu giữ kỉ niệm của Hùng và Xuân" />
 
-	 <!-- Twitter -->
-	 <meta property="twitter:card" content="summary_large_image">
-	 <meta property="twitter:title" content="Hoang Gia Hung">
-	 <meta property="twitter:image" content="https://res.cloudinary.com/hunghg255/image/upload/v1649143415/21_ud6new.jpg">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://hungxuan.vercel.app/" />
+    <meta property="og:title" content="Hùng Xuân Gallery" />
+    <meta
+      property="og:description"
+      content="Lưu giữ kỉ niệm của Hùng và Xuân"
+    />
+    <meta
+      property="og:image"
+      content="https://res.cloudinary.com/hunghg255/image/upload/v1649391281/Screen_Shot_2022-04-08_at_11.13.37_hqwdon.png"
+    />
 
-	<script>
-		document.documentElement.className = 'js';
-		var supportsCssVars = function () {
-			var e,
-				t = document.createElement('style');
-			return (
-				(t.innerHTML = 'root: { --tmp-var: bold; }'),
-				document.head.appendChild(t),
-				(e = !!(
-					window.CSS &&
-					window.CSS.supports &&
-					window.CSS.supports('font-weight', 'var(--tmp-var)')
-				)),
-				t.parentNode.removeChild(t),
-				e
-			);
-		};
-		supportsCssVars() ||
-			alert(
-				'Please view this demo in a modern browser that supports CSS Variables.'
-			);
-	</script>
-</head>
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://hungxuan.vercel.app/" />
+    <meta property="twitter:title" content="Hùng Xuân Gallery" />
+    <meta
+      property="twitter:description"
+      content="Lưu giữ kỉ niệm của Hùng và Xuân"
+    />
+    <meta
+      property="twitter:image"
+      content="https://res.cloudinary.com/hunghg255/image/upload/v1649391281/Screen_Shot_2022-04-08_at_11.13.37_hqwdon.png"
+    />
 
-<body class="loading">
-	<main>
-		<h2 class="heading heading--up">Gia Hùng</h2>
-		<h2 class="heading heading--down">Xuân Xuân</h2>
-		<div class="columns" data-scroll-container>
-			<div class="column-wrap column-wrap--height">
-				<div class="column">
-					<figure class="column__item">
-						<div class="column__item-imgwrap" data-pos="1">
-							<div class="column__item-img" style="background-image: url(img/1.jpeg)"></div>
-						</div>
-						<figcaption class="column__item-caption">
-							<span>Hà Nội</span>
-							<span>2022</span>
-						</figcaption>
-					</figure>
-					<figure class="column__item">
-						<div class="column__item-imgwrap" data-pos="2">
-							<div class="column__item-img" style="background-image: url(img/2.jpeg)"></div>
-						</div>
-						<figcaption class="column__item-caption">
-							<span>Hà Nội</span>
-							<span>2022</span>
-						</figcaption>
-					</figure>
-					<figure class="column__item">
-						<div class="column__item-imgwrap" data-pos="3">
-							<div class="column__item-img" style="background-image: url(img/3.jpeg)"></div>
-						</div>
-						<figcaption class="column__item-caption">
-							<span>Hà Nội</span>
-							<span>2022</span>
-						</figcaption>
-					</figure>
-					<figure class="column__item">
-						<div class="column__item-imgwrap" data-pos="4">
-							<div class="column__item-img" style="background-image: url(img/4.jpeg)"></div>
-						</div>
-						<figcaption class="column__item-caption">
-							<span>Hà Nội</span>
-							<span>2022</span>
-						</figcaption>
-					</figure>
-					<figure class="column__item">
-						<div class="column__item-imgwrap" data-pos="5">
-							<div class="column__item-img" style="background-image: url(img/5.jpeg)"></div>
-						</div>
-						<figcaption class="column__item-caption">
-							<span>Hà Nội</span>
-							<span>2022</span>
-						</figcaption>
-					</figure>
-					<figure class="column__item">
-						<div class="column__item-imgwrap" data-pos="6">
-							<div class="column__item-img" style="background-image: url(img/6.jpeg)"></div>
-						</div>
-						<figcaption class="column__item-caption">
-							<span>Hà Nội</span>
-							<span>2022</span>
-						</figcaption>
-					</figure>
-					<figure class="column__item">
-						<div class="column__item-imgwrap" data-pos="19">
-							<div class="column__item-img" style="background-image: url(img/19.jpg)"></div>
-						</div>
-						<figcaption class="column__item-caption">
-							<span>Hà Nội</span>
-							<span>2022</span>
-						</figcaption>
-					</figure>
-					<figure class="column__item">
-						<div class="column__item-imgwrap" data-pos="25">
-							<div class="column__item-img" style="background-image: url(img/24.jpg)"></div>
-						</div>
-						<figcaption class="column__item-caption">
-							<span>Hà Nội</span>
-							<span>2022</span>
-						</figcaption>
-					</figure>
-				</div>
-			</div>
-			<div class="column-wrap">
-				<div class="column" data-scroll-section>
-					<figure class="column__item">
-						<div class="column__item-imgwrap" data-pos="7">
-							<div class="column__item-img" style="background-image: url(img/9.jpeg)"></div>
-						</div>
-						<figcaption class="column__item-caption">
-							<span>Hà Nội</span>
-							<span>2022</span>
-						</figcaption>
-					</figure>
-					<figure class="column__item">
-						<div class="column__item-imgwrap" data-pos="8">
-							<div class="column__item-img" style="background-image: url(img/10.jpeg)"></div>
-						</div>
-						<figcaption class="column__item-caption">
-							<span>Hà Nội</span>
-							<span>2022</span>
-						</figcaption>
-					</figure>
-					<figure class="column__item">
-						<div class="column__item-imgwrap" data-pos="9">
-							<div class="column__item-img" style="background-image: url(img/11.jpeg)"></div>
-						</div>
-						<figcaption class="column__item-caption">
-							<span>Hà Nội</span>
-							<span>2022</span>
-						</figcaption>
-					</figure>
-					<figure class="column__item">
-						<div class="column__item-imgwrap" data-pos="11">
-							<div class="column__item-img" style="background-image: url(img/12.jpeg)"></div>
-						</div>
-						<figcaption class="column__item-caption">
-							<span>Hà Nội</span>
-							<span>2022</span>
-						</figcaption>
-					</figure>
-					<figure class="column__item">
-						<div class="column__item-imgwrap" data-pos="12">
-							<div class="column__item-img" style="background-image: url(img/13.jpeg)"></div>
-						</div>
-						<figcaption class="column__item-caption">
-							<span>Hà Nội</span>
-							<span>2022</span>
-						</figcaption>
-					</figure>
-					<figure class="column__item">
-						<div class="column__item-imgwrap" data-pos="13">
-							<div class="column__item-img" style="background-image: url(img/14.jpeg)"></div>
-						</div>
-						<figcaption class="column__item-caption">
-							<span>Hà Nội</span>
-							<span>2022</span>
-						</figcaption>
-					</figure>
-					<figure class="column__item">
-						<div class="column__item-imgwrap" data-pos="21">
-							<div class="column__item-img" style="background-image: url(img/20.jpg)"></div>
-						</div>
-						<figcaption class="column__item-caption">
-							<span>Hà Nội</span>
-							<span>2022</span>
-						</figcaption>
-					</figure>
-					<figure class="column__item">
-						<div class="column__item-imgwrap" data-pos="24">
-							<div class="column__item-img" style="background-image: url(img/23.jpg)"></div>
-						</div>
-						<figcaption class="column__item-caption">
-							<span>Hà Nội</span>
-							<span>2022</span>
-						</figcaption>
-					</figure>
-				</div>
-				<!-- /column -->
-			</div>
-			<div class="column-wrap column-wrap--height">
-				<div class="column">
-					<figure class="column__item">
-						<div class="column__item-imgwrap" data-pos="14">
-							<div class="column__item-img" style="background-image: url(img/15.jpeg)"></div>
-						</div>
-						<figcaption class="column__item-caption">
-							<span>Hà Nội</span>
-							<span>2022</span>
-						</figcaption>
-					</figure>
-					<figure class="column__item">
-						<div class="column__item-imgwrap" data-pos="15">
-							<div class="column__item-img" style="background-image: url(img/16.jpeg)"></div>
-						</div>
-						<figcaption class="column__item-caption">
-							<span>Hà Nội</span>
-							<span>2022</span>
-						</figcaption>
-					</figure>
-					<figure class="column__item">
-						<div class="column__item-imgwrap" data-pos="16">
-							<div class="column__item-img" style="background-image: url(img/7.jpeg)"></div>
-						</div>
-						<figcaption class="column__item-caption">
-							<span>Hà Nội</span>
-							<span>2022</span>
-						</figcaption>
-					</figure>
-					<figure class="column__item">
-						<div class="column__item-imgwrap" data-pos="17">
-							<div class="column__item-img" style="background-image: url(img/8.jpeg)"></div>
-						</div>
-						<figcaption class="column__item-caption">
-							<span>Hoà Sơn</span>
-							<span>2022</span>
-						</figcaption>
-					</figure>
-					<figure class="column__item">
-						<div class="column__item-imgwrap" data-pos="18">
-							<div class="column__item-img" style="background-image: url(img/17.png)"></div>
-						</div>
-						<figcaption class="column__item-caption">
-							<span>Hà Nội</span>
-							<span>2022</span>
-						</figcaption>
-					</figure>
-					<figure class="column__item">
-						<div class="column__item-imgwrap" data-pos="19">
-							<div class="column__item-img" style="background-image: url(img/18.jpeg)"></div>
-						</div>
-						<figcaption class="column__item-caption">
-							<span>Hà Nội</span>
-							<span>2022</span>
-						</figcaption>
-					</figure>
-					<figure class="column__item">
-						<div class="column__item-imgwrap" data-pos="22">
-							<div class="column__item-img" style="background-image: url(img/21.jpg)"></div>
-						</div>
-						<figcaption class="column__item-caption">
-							<span>Hà Nội</span>
-							<span>2022</span>
-						</figcaption>
-					</figure>
-					<figure class="column__item">
-						<div class="column__item-imgwrap" data-pos="23">
-							<div class="column__item-img" style="background-image: url(img/22.jpg)"></div>
-						</div>
-						<figcaption class="column__item-caption">
-							<span>Hà Nội</span>
-							<span>2022</span>
-						</figcaption>
-					</figure>
-				</div>
-				<!-- /column -->
-			</div>
-		</div>
+    <script>
+      document.documentElement.className = 'js';
+      var supportsCssVars = function () {
+        var e,
+          t = document.createElement('style');
+        return (
+          (t.innerHTML = 'root: { --tmp-var: bold; }'),
+          document.head.appendChild(t),
+          (e = !!(
+            window.CSS &&
+            window.CSS.supports &&
+            window.CSS.supports('font-weight', 'var(--tmp-var)')
+          )),
+          t.parentNode.removeChild(t),
+          e
+        );
+      };
+      supportsCssVars() ||
+        alert(
+          'Please view this demo in a modern browser that supports CSS Variables.'
+        );
+    </script>
+  </head>
 
-		<div class="content">
-			<div class="content__item">
-				<h2 class="content__item-title">Ha Noi 1</h2>
-				<div class="content__item-text">
-					<span>...</span>
-					<span>2022</span>
-				</div>
-			</div>
-			<div class="content__item">
-				<h2 class="content__item-title">Ha Noi</h2>
-				<div class="content__item-text">
-					<span>...</span>
-					<span>2022</span>
-				</div>
-			</div>
-			<div class="content__item">
-				<h2 class="content__item-title">Ha Noi</h2>
-				<div class="content__item-text">
-					<span>...</span>
-					<span>2022</span>
-				</div>
-			</div>
-			<div class="content__item">
-				<h2 class="content__item-title">Ha Noi</h2>
-				<div class="content__item-text">
-					<span>...</span>
-					<span>2022</span>
-				</div>
-			</div>
-			<div class="content__item">
-				<h2 class="content__item-title">Ha Noi</h2>
-				<div class="content__item-text">
-					<span>...</span>
-					<span>2022</span>
-				</div>
-			</div>
-			<div class="content__item">
-				<h2 class="content__item-title">Ha Noi</h2>
-				<div class="content__item-text">
-					<span>...</span>
-					<span>2022</span>
-				</div>
-			</div>
-			<div class="content__item">
-				<h2 class="content__item-title">Ha Noi</h2>
-				<div class="content__item-text">
-					<span>...</span>
-					<span>2022</span>
-				</div>
-			</div>
-			<div class="content__item">
-				<h2 class="content__item-title">Ha Noi</h2>
-				<div class="content__item-text">
-					<span>...</span>
-					<span>2022</span>
-				</div>
-			</div>
-			<div class="content__item">
-				<h2 class="content__item-title">Ha Noi</h2>
-				<div class="content__item-text">
-					<span>...</span>
-					<span>2022</span>
-				</div>
-			</div>
-			<div class="content__item">
-				<h2 class="content__item-title">Ha Noi</h2>
-				<div class="content__item-text">
-					<span>...</span>
-					<span>2022</span>
-				</div>
-			</div>
-			<div class="content__item">
-				<h2 class="content__item-title">Ha Noi</h2>
-				<div class="content__item-text">
-					<span>...</span>
-					<span>2022</span>
-				</div>
-			</div>
-			<div class="content__item">
-				<h2 class="content__item-title">Ha Noi</h2>
-				<div class="content__item-text">
-					<span>...</span>
-					<span>2022</span>
-				</div>
-			</div>
-			<div class="content__item">
-				<h2 class="content__item-title">Ha Noi</h2>
-				<div class="content__item-text">
-					<span>...</span>
-					<span>2022</span>
-				</div>
-			</div>
-			<div class="content__item">
-				<h2 class="content__item-title">Ha Noi</h2>
-				<div class="content__item-text">
-					<span>...</span>
-					<span>2022</span>
-				</div>
-			</div>
-			<div class="content__item">
-				<h2 class="content__item-title">Ha Noi</h2>
-				<div class="content__item-text">
-					<span>...</span>
-					<span>2022</span>
-				</div>
-			</div>
-			<div class="content__item">
-				<h2 class="content__item-title">Ha Noi</h2>
-				<div class="content__item-text">
-					<span>...</span>
-					<span>2022</span>
-				</div>
-			</div>
-			<div class="content__item">
-				<h2 class="content__item-title">Ha Noi</h2>
-				<div class="content__item-text">
-					<span>...</span>
-					<span>2022</span>
-				</div>
-			</div>
-			<div class="content__item">
-				<h2 class="content__item-title">Ha Noi</h2>
-				<div class="content__item-text">
-					<span>...</span>
-					<span>2022</span>
-				</div>
-			</div>
-			<div class="content__item">
-				<h2 class="content__item-title">Ha Noi</h2>
-				<div class="content__item-text">
-					<span>...</span>
-					<span>2022</span>
-				</div>
-			</div>
-			<div class="content__item">
-				<h2 class="content__item-title">Ha Noi</h2>
-				<div class="content__item-text">
-					<span>...</span>
-					<span>2022</span>
-				</div>
-			</div>
-			<div class="content__item">
-				<h2 class="content__item-title">Ha Noi</h2>
-				<div class="content__item-text">
-					<span>...</span>
-					<span>2022</span>
-				</div>
-			</div>
-			<div class="content__item">
-				<h2 class="content__item-title">Ha Noi</h2>
-				<div class="content__item-text">
-					<span>...</span>
-					<span>2022</span>
-				</div>
-			</div>
-			<div class="content__item">
-				<h2 class="content__item-title">Ha Noi</h2>
-				<div class="content__item-text">
-					<span>...</span>
-					<span>2022</span>
-				</div>
-			</div>
-			<div class="content__item">
-				<h2 class="content__item-title">Ha Noi</h2>
-				<div class="content__item-text">
-					<span>...</span>
-					<span>2022</span>
-				</div>
-			</div>
-			<div class="content__item">
-				<h2 class="content__item-title">Ha Noi</h2>
-				<div class="content__item-text">
-					<span>...</span>
-					<span>2022</span>
-				</div>
-			</div>
-			<div class="content__item">
-				<h2 class="content__item-title">Ha Noi</h2>
-				<div class="content__item-text">
-					<span>...</span>
-					<span>2022</span>
-				</div>
-			</div>
+  <body class="loading">
+    <main>
+      <h2 class="heading heading--up">Gia Hùng</h2>
+      <h2 class="heading heading--down">Xuân Xuân</h2>
+      <div class="columns" data-scroll-container>
+        <div class="column-wrap column-wrap--height">
+          <div class="column">
+            <figure class="column__item">
+              <div class="column__item-imgwrap" data-pos="1">
+                <div
+                  class="column__item-img"
+                  style="background-image: url(img/1.jpeg)"
+                ></div>
+              </div>
+              <figcaption class="column__item-caption">
+                <span>Hà Nội</span>
+                <span>2022</span>
+              </figcaption>
+            </figure>
+            <figure class="column__item">
+              <div class="column__item-imgwrap" data-pos="2">
+                <div
+                  class="column__item-img"
+                  style="background-image: url(img/2.jpeg)"
+                ></div>
+              </div>
+              <figcaption class="column__item-caption">
+                <span>Hà Nội</span>
+                <span>2022</span>
+              </figcaption>
+            </figure>
+            <figure class="column__item">
+              <div class="column__item-imgwrap" data-pos="3">
+                <div
+                  class="column__item-img"
+                  style="background-image: url(img/3.jpeg)"
+                ></div>
+              </div>
+              <figcaption class="column__item-caption">
+                <span>Hà Nội</span>
+                <span>2022</span>
+              </figcaption>
+            </figure>
+            <figure class="column__item">
+              <div class="column__item-imgwrap" data-pos="4">
+                <div
+                  class="column__item-img"
+                  style="background-image: url(img/4.jpeg)"
+                ></div>
+              </div>
+              <figcaption class="column__item-caption">
+                <span>Hà Nội</span>
+                <span>2022</span>
+              </figcaption>
+            </figure>
+            <figure class="column__item">
+              <div class="column__item-imgwrap" data-pos="5">
+                <div
+                  class="column__item-img"
+                  style="background-image: url(img/5.jpeg)"
+                ></div>
+              </div>
+              <figcaption class="column__item-caption">
+                <span>Hà Nội</span>
+                <span>2022</span>
+              </figcaption>
+            </figure>
+            <figure class="column__item">
+              <div class="column__item-imgwrap" data-pos="6">
+                <div
+                  class="column__item-img"
+                  style="background-image: url(img/6.jpeg)"
+                ></div>
+              </div>
+              <figcaption class="column__item-caption">
+                <span>Hà Nội</span>
+                <span>2022</span>
+              </figcaption>
+            </figure>
+            <figure class="column__item">
+              <div class="column__item-imgwrap" data-pos="19">
+                <div
+                  class="column__item-img"
+                  style="background-image: url(img/19.jpg)"
+                ></div>
+              </div>
+              <figcaption class="column__item-caption">
+                <span>Hà Nội</span>
+                <span>2022</span>
+              </figcaption>
+            </figure>
+            <figure class="column__item">
+              <div class="column__item-imgwrap" data-pos="25">
+                <div
+                  class="column__item-img"
+                  style="background-image: url(img/24.jpg)"
+                ></div>
+              </div>
+              <figcaption class="column__item-caption">
+                <span>Hà Nội</span>
+                <span>2022</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="column-wrap">
+          <div class="column" data-scroll-section>
+            <figure class="column__item">
+              <div class="column__item-imgwrap" data-pos="7">
+                <div
+                  class="column__item-img"
+                  style="background-image: url(img/9.jpeg)"
+                ></div>
+              </div>
+              <figcaption class="column__item-caption">
+                <span>Hà Nội</span>
+                <span>2022</span>
+              </figcaption>
+            </figure>
+            <figure class="column__item">
+              <div class="column__item-imgwrap" data-pos="8">
+                <div
+                  class="column__item-img"
+                  style="background-image: url(img/10.jpeg)"
+                ></div>
+              </div>
+              <figcaption class="column__item-caption">
+                <span>Hà Nội</span>
+                <span>2022</span>
+              </figcaption>
+            </figure>
+            <figure class="column__item">
+              <div class="column__item-imgwrap" data-pos="9">
+                <div
+                  class="column__item-img"
+                  style="background-image: url(img/11.jpeg)"
+                ></div>
+              </div>
+              <figcaption class="column__item-caption">
+                <span>Hà Nội</span>
+                <span>2022</span>
+              </figcaption>
+            </figure>
+            <figure class="column__item">
+              <div class="column__item-imgwrap" data-pos="11">
+                <div
+                  class="column__item-img"
+                  style="background-image: url(img/12.jpeg)"
+                ></div>
+              </div>
+              <figcaption class="column__item-caption">
+                <span>Hà Nội</span>
+                <span>2022</span>
+              </figcaption>
+            </figure>
+            <figure class="column__item">
+              <div class="column__item-imgwrap" data-pos="12">
+                <div
+                  class="column__item-img"
+                  style="background-image: url(img/13.jpeg)"
+                ></div>
+              </div>
+              <figcaption class="column__item-caption">
+                <span>Hà Nội</span>
+                <span>2022</span>
+              </figcaption>
+            </figure>
+            <figure class="column__item">
+              <div class="column__item-imgwrap" data-pos="13">
+                <div
+                  class="column__item-img"
+                  style="background-image: url(img/14.jpeg)"
+                ></div>
+              </div>
+              <figcaption class="column__item-caption">
+                <span>Hà Nội</span>
+                <span>2022</span>
+              </figcaption>
+            </figure>
+            <figure class="column__item">
+              <div class="column__item-imgwrap" data-pos="21">
+                <div
+                  class="column__item-img"
+                  style="background-image: url(img/20.jpg)"
+                ></div>
+              </div>
+              <figcaption class="column__item-caption">
+                <span>Hà Nội</span>
+                <span>2022</span>
+              </figcaption>
+            </figure>
+            <figure class="column__item">
+              <div class="column__item-imgwrap" data-pos="24">
+                <div
+                  class="column__item-img"
+                  style="background-image: url(img/23.jpg)"
+                ></div>
+              </div>
+              <figcaption class="column__item-caption">
+                <span>Hà Nội</span>
+                <span>2022</span>
+              </figcaption>
+            </figure>
+          </div>
+          <!-- /column -->
+        </div>
+        <div class="column-wrap column-wrap--height">
+          <div class="column">
+            <figure class="column__item">
+              <div class="column__item-imgwrap" data-pos="14">
+                <div
+                  class="column__item-img"
+                  style="background-image: url(img/15.jpeg)"
+                ></div>
+              </div>
+              <figcaption class="column__item-caption">
+                <span>Hà Nội</span>
+                <span>2022</span>
+              </figcaption>
+            </figure>
+            <figure class="column__item">
+              <div class="column__item-imgwrap" data-pos="15">
+                <div
+                  class="column__item-img"
+                  style="background-image: url(img/16.jpeg)"
+                ></div>
+              </div>
+              <figcaption class="column__item-caption">
+                <span>Hà Nội</span>
+                <span>2022</span>
+              </figcaption>
+            </figure>
+            <figure class="column__item">
+              <div class="column__item-imgwrap" data-pos="16">
+                <div
+                  class="column__item-img"
+                  style="background-image: url(img/7.jpeg)"
+                ></div>
+              </div>
+              <figcaption class="column__item-caption">
+                <span>Hà Nội</span>
+                <span>2022</span>
+              </figcaption>
+            </figure>
+            <figure class="column__item">
+              <div class="column__item-imgwrap" data-pos="17">
+                <div
+                  class="column__item-img"
+                  style="background-image: url(img/8.jpeg)"
+                ></div>
+              </div>
+              <figcaption class="column__item-caption">
+                <span>Hoà Sơn</span>
+                <span>2022</span>
+              </figcaption>
+            </figure>
+            <figure class="column__item">
+              <div class="column__item-imgwrap" data-pos="18">
+                <div
+                  class="column__item-img"
+                  style="background-image: url(img/17.png)"
+                ></div>
+              </div>
+              <figcaption class="column__item-caption">
+                <span>Hà Nội</span>
+                <span>2022</span>
+              </figcaption>
+            </figure>
+            <figure class="column__item">
+              <div class="column__item-imgwrap" data-pos="19">
+                <div
+                  class="column__item-img"
+                  style="background-image: url(img/18.jpeg)"
+                ></div>
+              </div>
+              <figcaption class="column__item-caption">
+                <span>Hà Nội</span>
+                <span>2022</span>
+              </figcaption>
+            </figure>
+            <figure class="column__item">
+              <div class="column__item-imgwrap" data-pos="22">
+                <div
+                  class="column__item-img"
+                  style="background-image: url(img/21.jpg)"
+                ></div>
+              </div>
+              <figcaption class="column__item-caption">
+                <span>Hà Nội</span>
+                <span>2022</span>
+              </figcaption>
+            </figure>
+            <figure class="column__item">
+              <div class="column__item-imgwrap" data-pos="23">
+                <div
+                  class="column__item-img"
+                  style="background-image: url(img/22.jpg)"
+                ></div>
+              </div>
+              <figcaption class="column__item-caption">
+                <span>Hà Nội</span>
+                <span>2022</span>
+              </figcaption>
+            </figure>
+          </div>
+          <!-- /column -->
+        </div>
+      </div>
 
-			<nav class="content__nav">
-				<div class="content__nav-wrap">
-					<div class="content__nav-item" style="background-image: url(img/1.jpeg)"></div>
-					<div class="content__nav-item" style="background-image: url(img/2.jpeg)"></div>
-					<div class="content__nav-item" style="background-image: url(img/3.jpeg)"></div>
-					<div class="content__nav-item" style="background-image: url(img/4.jpeg)"></div>
-					<div class="content__nav-item" style="background-image: url(img/5.jpeg)"></div>
-					<div class="content__nav-item" style="background-image: url(img/6.jpeg)"></div>
-					<div class="content__nav-item" style="background-image: url(img/7.jpeg)"></div>
-					<div class="content__nav-item" style="background-image: url(img/8.jpeg)"></div>
-					<div class="content__nav-item" style="background-image: url(img/9.jpeg)"></div>
-					<div class="content__nav-item" style="background-image: url(img/10.jpeg)"></div>
-					<div class="content__nav-item" style="background-image: url(img/11.jpeg)"></div>
-					<div class="content__nav-item" style="background-image: url(img/12.jpeg)"></div>
-				</div>
-			</nav>
-			<button class="unbutton button-back">
-				<svg viewbox="0 0 50 9" width="100%">
-					<path d="M0 4.5l5-3M0 4.5l5 3M50 4.5h-77"></path>
-				</svg>
-			</button>
-		</div>
-	</main>
-	<script type="module" src="js/index.js"></script>
-</body>
+      <div class="content">
+        <div class="content__item">
+          <h2 class="content__item-title">Ha Noi 1</h2>
+          <div class="content__item-text">
+            <span>...</span>
+            <span>2022</span>
+          </div>
+        </div>
+        <div class="content__item">
+          <h2 class="content__item-title">Ha Noi</h2>
+          <div class="content__item-text">
+            <span>...</span>
+            <span>2022</span>
+          </div>
+        </div>
+        <div class="content__item">
+          <h2 class="content__item-title">Ha Noi</h2>
+          <div class="content__item-text">
+            <span>...</span>
+            <span>2022</span>
+          </div>
+        </div>
+        <div class="content__item">
+          <h2 class="content__item-title">Ha Noi</h2>
+          <div class="content__item-text">
+            <span>...</span>
+            <span>2022</span>
+          </div>
+        </div>
+        <div class="content__item">
+          <h2 class="content__item-title">Ha Noi</h2>
+          <div class="content__item-text">
+            <span>...</span>
+            <span>2022</span>
+          </div>
+        </div>
+        <div class="content__item">
+          <h2 class="content__item-title">Ha Noi</h2>
+          <div class="content__item-text">
+            <span>...</span>
+            <span>2022</span>
+          </div>
+        </div>
+        <div class="content__item">
+          <h2 class="content__item-title">Ha Noi</h2>
+          <div class="content__item-text">
+            <span>...</span>
+            <span>2022</span>
+          </div>
+        </div>
+        <div class="content__item">
+          <h2 class="content__item-title">Ha Noi</h2>
+          <div class="content__item-text">
+            <span>...</span>
+            <span>2022</span>
+          </div>
+        </div>
+        <div class="content__item">
+          <h2 class="content__item-title">Ha Noi</h2>
+          <div class="content__item-text">
+            <span>...</span>
+            <span>2022</span>
+          </div>
+        </div>
+        <div class="content__item">
+          <h2 class="content__item-title">Ha Noi</h2>
+          <div class="content__item-text">
+            <span>...</span>
+            <span>2022</span>
+          </div>
+        </div>
+        <div class="content__item">
+          <h2 class="content__item-title">Ha Noi</h2>
+          <div class="content__item-text">
+            <span>...</span>
+            <span>2022</span>
+          </div>
+        </div>
+        <div class="content__item">
+          <h2 class="content__item-title">Ha Noi</h2>
+          <div class="content__item-text">
+            <span>...</span>
+            <span>2022</span>
+          </div>
+        </div>
+        <div class="content__item">
+          <h2 class="content__item-title">Ha Noi</h2>
+          <div class="content__item-text">
+            <span>...</span>
+            <span>2022</span>
+          </div>
+        </div>
+        <div class="content__item">
+          <h2 class="content__item-title">Ha Noi</h2>
+          <div class="content__item-text">
+            <span>...</span>
+            <span>2022</span>
+          </div>
+        </div>
+        <div class="content__item">
+          <h2 class="content__item-title">Ha Noi</h2>
+          <div class="content__item-text">
+            <span>...</span>
+            <span>2022</span>
+          </div>
+        </div>
+        <div class="content__item">
+          <h2 class="content__item-title">Ha Noi</h2>
+          <div class="content__item-text">
+            <span>...</span>
+            <span>2022</span>
+          </div>
+        </div>
+        <div class="content__item">
+          <h2 class="content__item-title">Ha Noi</h2>
+          <div class="content__item-text">
+            <span>...</span>
+            <span>2022</span>
+          </div>
+        </div>
+        <div class="content__item">
+          <h2 class="content__item-title">Ha Noi</h2>
+          <div class="content__item-text">
+            <span>...</span>
+            <span>2022</span>
+          </div>
+        </div>
+        <div class="content__item">
+          <h2 class="content__item-title">Ha Noi</h2>
+          <div class="content__item-text">
+            <span>...</span>
+            <span>2022</span>
+          </div>
+        </div>
+        <div class="content__item">
+          <h2 class="content__item-title">Ha Noi</h2>
+          <div class="content__item-text">
+            <span>...</span>
+            <span>2022</span>
+          </div>
+        </div>
+        <div class="content__item">
+          <h2 class="content__item-title">Ha Noi</h2>
+          <div class="content__item-text">
+            <span>...</span>
+            <span>2022</span>
+          </div>
+        </div>
+        <div class="content__item">
+          <h2 class="content__item-title">Ha Noi</h2>
+          <div class="content__item-text">
+            <span>...</span>
+            <span>2022</span>
+          </div>
+        </div>
+        <div class="content__item">
+          <h2 class="content__item-title">Ha Noi</h2>
+          <div class="content__item-text">
+            <span>...</span>
+            <span>2022</span>
+          </div>
+        </div>
+        <div class="content__item">
+          <h2 class="content__item-title">Ha Noi</h2>
+          <div class="content__item-text">
+            <span>...</span>
+            <span>2022</span>
+          </div>
+        </div>
+        <div class="content__item">
+          <h2 class="content__item-title">Ha Noi</h2>
+          <div class="content__item-text">
+            <span>...</span>
+            <span>2022</span>
+          </div>
+        </div>
+        <div class="content__item">
+          <h2 class="content__item-title">Ha Noi</h2>
+          <div class="content__item-text">
+            <span>...</span>
+            <span>2022</span>
+          </div>
+        </div>
 
+        <nav class="content__nav">
+          <div class="content__nav-wrap">
+            <div
+              class="content__nav-item"
+              style="background-image: url(img/1.jpeg)"
+            ></div>
+            <div
+              class="content__nav-item"
+              style="background-image: url(img/2.jpeg)"
+            ></div>
+            <div
+              class="content__nav-item"
+              style="background-image: url(img/3.jpeg)"
+            ></div>
+            <div
+              class="content__nav-item"
+              style="background-image: url(img/4.jpeg)"
+            ></div>
+            <div
+              class="content__nav-item"
+              style="background-image: url(img/5.jpeg)"
+            ></div>
+            <div
+              class="content__nav-item"
+              style="background-image: url(img/6.jpeg)"
+            ></div>
+            <div
+              class="content__nav-item"
+              style="background-image: url(img/7.jpeg)"
+            ></div>
+            <div
+              class="content__nav-item"
+              style="background-image: url(img/8.jpeg)"
+            ></div>
+            <div
+              class="content__nav-item"
+              style="background-image: url(img/9.jpeg)"
+            ></div>
+            <div
+              class="content__nav-item"
+              style="background-image: url(img/10.jpeg)"
+            ></div>
+            <div
+              class="content__nav-item"
+              style="background-image: url(img/11.jpeg)"
+            ></div>
+            <div
+              class="content__nav-item"
+              style="background-image: url(img/12.jpeg)"
+            ></div>
+          </div>
+        </nav>
+        <button class="unbutton button-back">
+          <svg viewbox="0 0 50 9" width="100%">
+            <path d="M0 4.5l5-3M0 4.5l5 3M50 4.5h-77"></path>
+          </svg>
+        </button>
+      </div>
+    </main>
+    <script type="module" src="js/index.js"></script>
+  </body>
 </html>
